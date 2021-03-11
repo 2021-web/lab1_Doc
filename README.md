@@ -42,7 +42,7 @@ AWS对于信用卡使用者提供一定的免费时长（适用于Global账号�
 
 关于“AWS VPC with Public and Private Subnets”的关键词在Youtube上有大量的视频演示配置操作，推荐同学们看[这个](https://www.youtube.com/watch?v=wG9En2X9FvM)。
 
-具体的创建带有公网和私有子网的VPC关键步骤摘要见**./assets/material/创建带有公网和私有子网的VPC.pdf**
+具体的创建带有公网和私有子网的VPC关键步骤摘要见** ./assets/material/创建带有公网和私有子网的VPC.pdf **
 
 ## Part 3：使用Docker
 
