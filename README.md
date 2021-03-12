@@ -46,7 +46,7 @@ AWS对于信用卡使用者提供一定的免费时长（适用于Global账号�
 
 ## Part 3：使用Docker
 
-实验要求：配置Docker并成功部署所给的简易java项目，项目源代码[见此](https://github.com/2020-web/lab1_Code-docker_ssm)。
+实验要求：配置Docker并成功部署所给的简易java项目，项目源代码[见此](https://github.com/2021-web/lab1_Code.git)。
 
 Docker 是一个开源的应用容器引擎，让开发者可以打包他们的应用以及依赖包到一个可移植的镜像中，然后发布到任何流行的 Linux或Windows 机器上，也可以实现虚拟化。
 
@@ -79,8 +79,8 @@ ENV CATALINA_HOME /usr/local/tomcat
 ENV PATH $CATALINA_HOME/bin:$PATH
 RUN mkdir -p "$CATALINA_HOME"
 WORKDIR $CATALINA_HOME
-ENV TOMCAT_VERSION 8.5.51
-ENV TOMCAT_TGZ_URL https://www.apache.org/dist/tomcat/tomcat-8/v$TOMCAT_VERSION/bin/apache-tomcat-$TOMCAT_VERSION.tar.gz
+ENV TOMCAT_VERSION 8.5.63
+ENV TOMCAT_TGZ_URL https://downloads.apache.org/tomcat/tomcat-8/v$TOMCAT_VERSION/bin/apache-tomcat-$TOMCAT_VERSION.tar.gz
 RUN set -x \
 && curl -fSL "$TOMCAT_TGZ_URL" -o tomcat.tar.gz \
 && tar -xvf tomcat.tar.gz --strip-components=1 \
@@ -149,11 +149,11 @@ curl localhost:8001
 
 使用用户名：admin，密码：admin登录。
 
-![image-20200323214746985](assets/image/image1.png)
+![image1](assets/image/image1.png)
 
 平台截图：
 
-![image-20200323215207088](assets/image/image2.png)
+![image2](assets/image/image2.png)
 
 ## Part 4：提交
 
