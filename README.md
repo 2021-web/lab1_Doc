@@ -79,7 +79,7 @@ ENV CATALINA_HOME /usr/local/tomcat
 ENV PATH $CATALINA_HOME/bin:$PATH
 RUN mkdir -p "$CATALINA_HOME"
 WORKDIR $CATALINA_HOME
-ENV TOMCAT_VERSION 8.5.63
+ENV TOMCAT_VERSION 8.5.64
 ENV TOMCAT_TGZ_URL https://downloads.apache.org/tomcat/tomcat-8/v$TOMCAT_VERSION/bin/apache-tomcat-$TOMCAT_VERSION.tar.gz
 RUN set -x \
 && curl -fSL "$TOMCAT_TGZ_URL" -o tomcat.tar.gz \
